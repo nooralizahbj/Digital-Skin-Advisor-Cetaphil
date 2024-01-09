@@ -891,26 +891,26 @@ fetch("", requestOptions)
     if(newMode === 'instore'){
       if (ipadVersion.matches) { // If media query matches
         console.log('iPad');
-        document.getElementById("pageVoucher").src = "/assets/voucher-ipad.png";
+        document.getElementById("pageVoucher").src = "assets/voucher-ipad.png";
         } else {
         console.log('Not iPad');
-        document.getElementById("pageVoucher").src = "/assets/Instore End Frame.png";
+        document.getElementById("pageVoucher").src = "assets/Instore End Frame.png";
       }
     }
     if(newMode === 'roadshow'){
       frame_7.style.display = "none";
       // frame_8.style.display = "inherit";
       document.getElementById("voucher").style.display = "inherit";
-      document.getElementById("pageVoucher").src = "/assets/Roadshow-End-Frame.png";
+      document.getElementById("pageVoucher").src = "assets/Roadshow-End-Frame.png";
       } if(newMode === 'mobile'){
         frame_7.style.display = "none";
         document.getElementById("voucher").style.display = "inherit";
-        document.getElementById("pageVoucher").src = "/assets/mobile-voucher.png";
+        document.getElementById("pageVoucher").src = "assets/mobile-voucher.png";
       }
       if (document.location.search.length < 1) {
         frame_7.style.display = "none";
         document.getElementById("voucher").style.display = "inherit";
-        document.getElementById("pageVoucher").src = "/assets/mobile-voucher.png";
+        document.getElementById("pageVoucher").src = "assets/mobile-voucher.png";
       }
   }
 })
@@ -1361,8 +1361,8 @@ window.onload = function language2(){
 
 if(scanningLang == "EN"){
   console.log('Bahasa sekarang '+scanningLang)
-  document.getElementById("loading-image").src = "/assets/TSEBENTAR.gif";
-  document.getElementById("align-lang").src = "/assets/Align-BM.png";
+  document.getElementById("loading-image").src = "assets/TSEBENTAR.gif";
+  document.getElementById("align-lang").src = "assets/Align-BM.png";
   document.getElementById("scan-button").innerText = "IMBAS MUKA SAYA";
     document.getElementById("skinhealth-lang").innerText = "SKOR KESIHATAN KULIT ANDA";
     document.getElementById("sub-lang1").innerText = "Periksa jika kulit anda dalam keadaan baik atau perlukan";
@@ -1415,8 +1415,8 @@ if(scanningLang == "EN"){
     
   // } if(scanningLang == "BM"){
 } else{
-  document.getElementById("loading-image").src = "/assets/loader.gif";
-  document.getElementById("align-lang").src = "/assets/AlIGN YOUR FACE.png";
+  document.getElementById("loading-image").src = "assets/loader.gif";
+  document.getElementById("align-lang").src = "assets/AlIGN YOUR FACE.png";
   document.getElementById("scan-button").innerText = "SCAN MY FACE";
       document.getElementById("skinhealth-lang").innerText = "YOUR SKIN HEALTH SCORE";
       document.getElementById("sub-lang1").innerText = "Understand your skin condition based on each";
