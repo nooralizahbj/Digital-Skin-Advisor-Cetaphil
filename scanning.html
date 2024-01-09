@@ -29,20 +29,20 @@
 <div id="entire-group2">
 <div id="loading" class="loader"></div>
 <div id="loading-gif" class="giphy">
-  <img id="loading-image" src="/Digital-Skin-Advisor-Cetaphil/assets/loader.gif">
+  <img id="loading-image" src="https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/loader.gif">
 </div>
 <div id="go-back" class="back">
   <button id="back-lang" onclick="backButton();" class="back-button">BACK</button>
 </div>
     <!-- <div class="scanner-top">
-        <img id="banner-top" src="/Digital-Skin-Advisor-Cetaphil/assets/TOP PART.png" alt="scannertop-image">
+        <img id="banner-top" src="https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/TOP PART.png" alt="scannertop-image">
     </div> -->
     <div id="image-top" class="logo-top">
-        <img src="/Digital-Skin-Advisor-Cetaphil/assets/cetaphil.webp" alt="logotop-image">
+        <img src="https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/cetaphil.webp" alt="logotop-image">
     </div>
     <div id="container-4" class="frame-4">
         <div class="align-hint">
-            <img id="align-lang" src="/Digital-Skin-Advisor-Cetaphil/assets/align-your-face.png">
+            <img id="align-lang" src="https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/align-your-face.png">
           </div>
           <div class="selfie">
             <button class="face-scan" id="scan-button" onclick="capture()">SCAN MY FACE</button>
@@ -529,7 +529,7 @@
 <!-- FRAME 7 -->
     <div id="container-7" class="frame-7">
       <div class="sign-top">
-        <img src="/Digital-Skin-Advisor-Cetaphil/assets/cetaphil.webp" alt="signtop-img">
+        <img src="https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/cetaphil.webp" alt="signtop-img">
     </div>
     <div class="sign-header">
       <h2 id="signheader-lang">SIGN-UP<br></br>FOR FREE SAMPLES</h2>
@@ -613,7 +613,7 @@
     <!-- FRAME 8 -->
     <div id="container-8" class="frame-8">
       <div class="sign-top">
-        <img src="/Digital-Skin-Advisor-Cetaphil/assets/New Logo.png" alt="signtop-image">
+        <img src="https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/New Logo.png" alt="signtop-image">
     </div>
     <div class="thanks-header">
       <h1 id="thanksheader-lang">THANKS FOR SIGNING UP</h1>
@@ -709,7 +709,7 @@
 </div>
 <!-- Voucher Page -->
 <div id="voucher" class="voucherPage">
-  <img id="pageVoucher" class="voucherPage" src="/Digital-Skin-Advisor-Cetaphil/assets/Instore End Frame.png" alt="">
+  <img id="pageVoucher" class="voucherPage" src="https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/Instore End Frame.png" alt="">
 </div>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -821,7 +821,7 @@ ipadNow(ipadVersion);
 function ipadNow() {
   if (ipadVersion.matches) { // If media query matches
     console.log('iPad');
-    document.getElementById("pageVoucher").src = "/Digital-Skin-Advisor-Cetaphil/assets/voucher-ipad.png";
+    document.getElementById("pageVoucher").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/voucher-ipad.png";
   } else {
     console.log('Not iPad');
     // document.getElementById("intro-image").src = "hackanm.gif";
@@ -891,26 +891,26 @@ fetch("", requestOptions)
     if(newMode === 'instore'){
       if (ipadVersion.matches) { // If media query matches
         console.log('iPad');
-        document.getElementById("pageVoucher").src = "/Digital-Skin-Advisor-Cetaphil/assets/voucher-ipad.png";
+        document.getElementById("pageVoucher").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/voucher-ipad.png";
         } else {
         console.log('Not iPad');
-        document.getElementById("pageVoucher").src = "/Digital-Skin-Advisor-Cetaphil/assets/Instore End Frame.png";
+        document.getElementById("pageVoucher").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/Instore End Frame.png";
       }
     }
     if(newMode === 'roadshow'){
       frame_7.style.display = "none";
       // frame_8.style.display = "inherit";
       document.getElementById("voucher").style.display = "inherit";
-      document.getElementById("pageVoucher").src = "/Digital-Skin-Advisor-Cetaphil/assets/Roadshow-End-Frame.png";
+      document.getElementById("pageVoucher").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/Roadshow-End-Frame.png";
       } if(newMode === 'mobile'){
         frame_7.style.display = "none";
         document.getElementById("voucher").style.display = "inherit";
-        document.getElementById("pageVoucher").src = "/Digital-Skin-Advisor-Cetaphil/assets/mobile-voucher.png";
+        document.getElementById("pageVoucher").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/mobile-voucher.png";
       }
       if (document.location.search.length < 1) {
         frame_7.style.display = "none";
         document.getElementById("voucher").style.display = "inherit";
-        document.getElementById("pageVoucher").src = "/Digital-Skin-Advisor-Cetaphil/assets/mobile-voucher.png";
+        document.getElementById("pageVoucher").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/mobile-voucher.png";
       }
   }
 })
@@ -1361,8 +1361,8 @@ window.onload = function language2(){
 
 if(scanningLang == "EN"){
   console.log('Bahasa sekarang '+scanningLang)
-  document.getElementById("loading-image").src = "/Digital-Skin-Advisor-Cetaphil/assets/TSEBENTAR.gif";
-  document.getElementById("align-lang").src = "/Digital-Skin-Advisor-Cetaphil/assets/Align-BM.png";
+  document.getElementById("loading-image").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/TSEBENTAR.gif";
+  document.getElementById("align-lang").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/Align-BM.png";
   document.getElementById("scan-button").innerText = "IMBAS MUKA SAYA";
     document.getElementById("skinhealth-lang").innerText = "SKOR KESIHATAN KULIT ANDA";
     document.getElementById("sub-lang1").innerText = "Periksa jika kulit anda dalam keadaan baik atau perlukan";
@@ -1415,8 +1415,8 @@ if(scanningLang == "EN"){
     
   // } if(scanningLang == "BM"){
 } else{
-  document.getElementById("loading-image").src = "/Digital-Skin-Advisor-Cetaphil/assets/loader.gif";
-  document.getElementById("align-lang").src = "/Digital-Skin-Advisor-Cetaphil/assets/align-your-face.png";
+  document.getElementById("loading-image").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/loader.gif";
+  document.getElementById("align-lang").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/align-your-face.png";
   document.getElementById("scan-button").innerText = "SCAN MY FACE";
       document.getElementById("skinhealth-lang").innerText = "YOUR SKIN HEALTH SCORE";
       document.getElementById("sub-lang1").innerText = "Understand your skin condition based on each";
@@ -1581,8 +1581,8 @@ function windowResized() {
 }
 
 function preload() {
-gif = loadImage("/Digital-Skin-Advisor-Cetaphil/assets/NewGuide.png");
-toplogo = loadImage("/Digital-Skin-Advisor-Cetaphil/assets/cetaphil.webp");
+gif = loadImage("https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/NewGuide.png");
+toplogo = loadImage("https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/cetaphil.webp");
 // gif.id('face-hint');
 // 
 }
@@ -1738,10 +1738,10 @@ function hideReco(){
         function ipadNow() {
         if (ipadVersion.matches) { // If media query matches
         console.log('iPad');
-        document.getElementById("pageVoucher").src = "/Digital-Skin-Advisor-Cetaphil/assets/voucher-ipad.png";
+        document.getElementById("pageVoucher").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/voucher-ipad.png";
         } else {
         console.log('Not iPad');
-        document.getElementById("pageVoucher").src = "/Digital-Skin-Advisor-Cetaphil/assets/Instore End Frame.png";
+        document.getElementById("pageVoucher").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/Instore End Frame.png";
       }
 }
         frame_6.style.display = "none";
@@ -1764,7 +1764,7 @@ function hideReco(){
         // document.getElementById("post-state-id").style.display = "none";
         // document.getElementById("row-id").style.display = "none";
         // document.getElementById("sampleheader-lang").style.display = "none";
-        document.getElementById("pageVoucher").src = "/Digital-Skin-Advisor-Cetaphil/assets/Roadshow-End-Frame.png";
+        document.getElementById("pageVoucher").src = "https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/Roadshow-End-Frame.png";
         frame_6.style.display = "none";
         frame_7.style.display = "inherit";
         back.style.display = "none";
@@ -4631,7 +4631,7 @@ body{
 }
 .bg {
   /* The image used */
-  background-image: url("/Digital-Skin-Advisor-Cetaphil/assets/Desktop\ Optimized.png");
+  background-image: url("https://nooralizahbj.github.io/Digital-Skin-Advisor-Cetaphil/assets/Desktop\ Optimized.png");
   position: relative;
   z-index: 100;
 
