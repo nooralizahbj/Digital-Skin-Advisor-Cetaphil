@@ -13,12 +13,12 @@ function langNew() {
       document.getElementById("header-lang2").innerText = "KESIHATAN KULIT ANDA";
       document.getElementById("subheader-lang1").innerText = "CUBA PENGANALISIS";
       document.getElementById("subheader-lang2").innerText = "DARI CETAPHIL";
-      document.getElementById("textsnapshot-lang").src = "assets/INTRO BM.png";
+      document.getElementById("textsnapshot-lang").src = "/Digital-Skin-Advisor-Cetaphil/assets/INTRO BM.png";
       document.getElementById("start-button").innerText = "MULAKAN";
 
     // Frame 2
       document.getElementById("how-lang").innerText = "BAGAIMANA IA BERFUNGSI";
-      document.getElementById("guide-lang").src = "assets/Guide BM.png";
+      document.getElementById("guide-lang").src = "/Digital-Skin-Advisor-Cetaphil/assets/Guide BM.png";
       document.getElementById("got-lang").innerText = "BAIK";
 
     // Frame 3
@@ -36,12 +36,12 @@ function langNew() {
       document.getElementById("header-lang2").innerText = "YOUR SKIN REALLY IS";
       document.getElementById("subheader-lang1").innerText = "TRY CETAPHIL'S ADVANCED";
       document.getElementById("subheader-lang2").innerText = "SKIN ANALYSER";
-      document.getElementById("textsnapshot-lang").src = "assets/INTRO CARD.png";
+      document.getElementById("textsnapshot-lang").src = "/Digital-Skin-Advisor-Cetaphil/assets/INTRO CARD.png";
       document.getElementById("start-button").innerText = "GET STARTED";
 
       // Frame 2
       document.getElementById("how-lang").innerText = "HOW IT WORKS";
-      document.getElementById("guide-lang").src = "assets/Guide.png";
+      document.getElementById("guide-lang").src = "/Digital-Skin-Advisor-Cetaphil/assets/Guide.png";
       document.getElementById("got-lang").innerText = "GOT IT";
     }
     }
